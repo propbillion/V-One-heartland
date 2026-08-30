@@ -5431,7 +5431,7 @@ letter-spacing: 0.045em !important;
    (Appended per PropBillion migration rules - base CSS body untouched)
    ============================================ */
 .hero-mainline em {
-  color: #1B4D6B;
+  color: #1B4D6B !important;
   font-style: italic;
 }
 .hero-mainline,
