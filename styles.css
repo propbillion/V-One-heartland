@@ -1,6 +1,6 @@
 /* ============================================
    YOO PRISTINE - Production Stylesheet
-   Brand color #5D2D2C (Maroon) · Pure White System
+   Brand color #678EB2 (Maroon) · Pure White System
    Apple-grade refinement · Cinematic architectural
    ============================================ */
 
@@ -14,24 +14,24 @@
   --bone-warm: #ffffff;
   --cream-deep: #FEFEFE;
   --pure-white: #ffffff;
-  --line: rgba(93, 45, 44, 0.10);
+  --line: rgba(103, 142, 178, 0.14);
   --glass-line: rgba(0, 0, 0, 0.06);
 
-  /* Brand — Deep Maroon */
-  --brand: #5D2D2C;
-  --brand-dark: #431F1E;
-  --brand-light: #7A3D3B;
-  --brand-deeper: #2A1514;
-  --brand-soft: rgba(93, 45, 44, 0.08);
-  --brand-tint: rgba(93, 45, 44, 0.14);
+  /* Brand — Premium Blue */
+  --brand: #678EB2;
+  --brand-dark: #375173;
+  --brand-light: #54779D;
+  --brand-deeper: #375173;
+  --brand-soft: rgba(103, 142, 178, 0.08);
+  --brand-tint: rgba(103, 142, 178, 0.14);
 
-  /* Accent — Warm Terracotta (same maroon family, lighter tone) */
-  --gold: #8B4A47;
-  --gold-light: #C98B85;
-  --gold-soft: #B67D79;
-  --gold-deep: #431F1E;
-  --gold-line: rgba(93, 45, 44, 0.35);
-  --gold-soft-bg: rgba(93, 45, 44, 0.08);
+  /* Accent — Light Blue (secondary) */
+  --gold: #54779D;
+  --gold-light: #8CB2D0;
+  --gold-soft: #8CB2D0;
+  --gold-deep: #375173;
+  --gold-line: rgba(103, 142, 178, 0.35);
+  --gold-soft-bg: rgba(103, 142, 178, 0.08);
 
   --ease: cubic-bezier(0.22, 1, 0.36, 1);
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -547,7 +547,7 @@ button { font-family: inherit; cursor: pointer; }
 .hero h1 em {
   font-style: italic;
   font-weight: 500;
-  color: #C98B85;
+  color: #8CB2D0;
 }
 
 .hero-lead {
@@ -564,7 +564,7 @@ button { font-family: inherit; cursor: pointer; }
   font-size: 12px;
   letter-spacing: 0.24em;
   text-transform: uppercase;
-  color: #C98B85;
+  color: #8CB2D0;
   font-weight: 600;
   margin-bottom: 1.5rem;
   display: inline-block;
@@ -633,7 +633,7 @@ button { font-family: inherit; cursor: pointer; }
   letter-spacing: -0.03em;
   text-shadow: 0 2px 12px rgba(0,0,0,0.4);
 }
-.hero-stat .n .plus { color: #C98B85; }
+.hero-stat .n .plus { color: #8CB2D0; }
 .hero-stat .l {
   font-size: 11.5px;
   letter-spacing: 0.16em;
@@ -1146,7 +1146,7 @@ button { font-family: inherit; cursor: pointer; }
    VIDEO CONFERENCE CTA
    ============================================ */
 .vc-card {
-  background: linear-gradient(135deg, #1d1d1f 0%, #2a1a1a 100%);
+  background: linear-gradient(135deg, #1d1d1f 0%, #1e2731 100%);
   color: var(--bone);
   border-radius: 28px;
   padding: 2.5rem 1.75rem;
@@ -1398,7 +1398,7 @@ input:focus-visible {
    ============================================ */
 .signature-block {
   position: relative;
-  background: linear-gradient(135deg, #0f0e0f 0%, #1a1112 50%, #0f0e0f 100%);
+  background: linear-gradient(135deg, #0d1114 0%, #12181d 50%, #0d1114 100%);
   color: var(--bone);
   border-radius: 26px;
   padding: 2.5rem 1.75rem;
@@ -1538,7 +1538,7 @@ input:focus-visible {
   font-size: clamp(13px, 1.6vw, 17px);
   letter-spacing: 0.32em;
   font-weight: 700;
-  color: #C98B85;
+  color: #8CB2D0;
   margin-bottom: 2rem;
   text-shadow: 0 1px 12px rgba(0,0,0,0.45);
 }
@@ -1565,7 +1565,7 @@ input:focus-visible {
 .hero-line em {
   font-style: italic;
   font-weight: 500;
-  color: #C98B85;
+  color: #8CB2D0;
 }
 
 /* Cinematic brand slide-in: blur-to-focus + slide up - V6: bolder, larger, brand red */
@@ -1575,7 +1575,7 @@ input:focus-visible {
   font-size: clamp(40px, 7vw, 84px);
   font-weight: 700;
   letter-spacing: 0.02em;
-  background: linear-gradient(135deg, #8B4A47 0%, #C98B85 50%, #ffffff 100%);
+  background: linear-gradient(135deg, #54779D 0%, #8CB2D0 50%, #ffffff 100%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -1630,7 +1630,7 @@ input:focus-visible {
   top: 0.55em;
   width: 5px;
   height: 5px;
-  background: #8B4A47;
+  background: #54779D;
   border-radius: 50%;
   box-shadow: 0 0 8px rgba(212, 158, 161, 0.6);
 }
@@ -2004,7 +2004,7 @@ input:focus-visible {
 
 .conn-callout {
   margin-top: 1.5rem;
-  background: linear-gradient(135deg, #0f0e0f 0%, #1a1112 100%);
+  background: linear-gradient(135deg, #0d1114 0%, #12181d 100%);
   color: var(--bone);
   border-radius: 22px;
   padding: 2rem 1.5rem;
@@ -2136,7 +2136,7 @@ input:focus-visible {
 
 /* Signature card titanium-black variant */
 .signature-card {
-  background: linear-gradient(135deg, #0f0e0f 0%, #1a1112 50%, #0f0e0f 100%);
+  background: linear-gradient(135deg, #0d1114 0%, #12181d 50%, #0d1114 100%);
   border: 1px solid rgba(122, 61, 59, 0.22);
   box-shadow:
     0 1px 0 rgba(255, 255, 255, 0.06) inset,
@@ -2842,7 +2842,7 @@ img[loading="lazy"].img-loaded {
 }
 .hv-word {
   display: inline-block;
-  background: linear-gradient(180deg, #ffffff 0%, #C98B85 60%, #8B4A47 100%);
+  background: linear-gradient(180deg, #ffffff 0%, #8CB2D0 60%, #54779D 100%);
   -webkit-background-clip: text;
           background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2892,7 +2892,7 @@ img[loading="lazy"].img-loaded {
 }
 .hero-philosophy em {
   font-style: italic;
-  color: #C98B85;
+  color: #8CB2D0;
   font-weight: 500;
 }
 
@@ -2926,7 +2926,7 @@ img[loading="lazy"].img-loaded {
   transform: translateY(-50%);
   width: 3px;
   height: 3px;
-  background: #8B4A47;
+  background: #54779D;
   border-radius: 50%;
   opacity: 0.7;
 }
@@ -2956,7 +2956,7 @@ img[loading="lazy"].img-loaded {
    V8 - USP SECTION (dark luxury card grid)
    ============================================ */
 .section-usps {
-  background: linear-gradient(180deg, #0f0e0f 0%, #1a1112 50%, #0f0e0f 100%);
+  background: linear-gradient(180deg, #0d1114 0%, #12181d 50%, #0d1114 100%);
   color: var(--bone);
   padding: 4.5rem 1.25rem;
   position: relative;
@@ -3038,7 +3038,7 @@ img[loading="lazy"].img-loaded {
 .usp-icon {
   width: 38px;
   height: 38px;
-  color: #8B4A47;
+  color: #54779D;
 }
 .usp-icon svg { width: 100%; height: 100%; display: block; }
 
@@ -3083,7 +3083,7 @@ img[loading="lazy"].img-loaded {
   font-size: 11.5px;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: #8B4A47;
+  color: #54779D;
   font-weight: 700;
   background: rgba(122, 61, 59, 0.08);
   border: 1px solid rgba(122, 61, 59, 0.22);
@@ -3125,7 +3125,7 @@ img[loading="lazy"].img-loaded {
 
 /* Button color variants for the 4-bar */
 .sf-grid-4 .sf-price {
-  background: linear-gradient(135deg, #0f0e0f 0%, #1a1112 100%);
+  background: linear-gradient(135deg, #0d1114 0%, #12181d 100%);
   color: #ffffff;
 }
 .sf-grid-4 .sf-visit {
@@ -3174,7 +3174,7 @@ img[loading="lazy"].img-loaded {
 .hero-headline-v2 em {
   font-style: italic;
   font-weight: 500;
-  color: #C98B85;
+  color: #8CB2D0;
 }
 
 /* Sub-headline — USP one-liner */
@@ -3264,7 +3264,7 @@ img[loading="lazy"].img-loaded {
   box-shadow: 0 0 0 3px rgba(243,216,218,0.12);
 }
 .hf-input.hf-error {
-  border-color: #C98B85;
+  border-color: #8CB2D0;
   background: rgba(168,68,74,0.18);
 }
 
@@ -4787,7 +4787,7 @@ p.hero-headline-v2.hero-config-pill em {
 .township-section-v2 {
   background:
     radial-gradient(ellipse 70% 60% at 50% 0%, rgba(93, 45, 44, 0.06), transparent 70%),
-    linear-gradient(180deg, #2A1514 0%, #2A1514 100%);
+    linear-gradient(180deg, #375173 0%, #375173 100%);
   padding: 7rem 1.25rem;
   color: #ffffff;
   position: relative;
@@ -4995,7 +4995,7 @@ p.hero-headline-v2.hero-config-pill em {
 
 /* ---------- Section that contains sky tiles — emerald background, not white ---------- */
 .sky-amenities-section {
-  background: linear-gradient(180deg, #2A1514 0%, #2A1514 100%) !important;
+  background: linear-gradient(180deg, #375173 0%, #375173 100%) !important;
   color: #ffffff;
 }
 .sky-amenities-section .h-section {
@@ -5030,7 +5030,7 @@ p.hero-headline-v2.hero-config-pill em {
 
 /* ---------- USP grid section refinement ---------- */
 .section-usps {
-  background: linear-gradient(180deg, #2A1514 0%, #2A1514 100%) !important;
+  background: linear-gradient(180deg, #375173 0%, #375173 100%) !important;
   padding-top: 8rem !important;
   padding-bottom: 8rem !important;
 }
@@ -5081,7 +5081,7 @@ p.hero-headline-v2.hero-config-pill em {
 
 /* ---------- Footer refinement ---------- */
 .footer {
-  background: linear-gradient(180deg, var(--brand-deeper) 0%, #1F0F0F 100%) !important;
+  background: linear-gradient(180deg, var(--brand-deeper) 0%, #161d24 100%) !important;
   padding-top: 5rem;
   padding-bottom: 3rem;
 }
@@ -5194,7 +5194,7 @@ img { background-color: #ffffff !important; }
 
 /* ---------- Brochure spine on dark — wider tracking ---------- */
 .partners-section {
-  background: linear-gradient(180deg, #2A1514 0%, #2A1514 100%) !important;
+  background: linear-gradient(180deg, #375173 0%, #375173 100%) !important;
   padding: 7rem 1.25rem !important;
 }
 
@@ -5343,7 +5343,7 @@ letter-spacing: 0.045em !important;
   max-width:680px; width:100%; max-height:85vh; overflow-y:auto;
   border-radius:20px; padding:2.75rem 2.5rem;
   box-shadow:0 30px 80px -20px rgba(0,0,0,0.5);
-  border-top:3px solid #5D2D2C;
+  border-top:3px solid #678EB2;
   transform:translateY(24px) scale(0.98);
   transition:transform .4s cubic-bezier(0.22,1,0.36,1);
   position:relative;
@@ -5352,21 +5352,21 @@ letter-spacing: 0.045em !important;
 .privacy-close{
   position:absolute; top:1.1rem; right:1.4rem;
   background:none; border:none; font-size:30px; line-height:1;
-  color:#5D2D2C; cursor:pointer; opacity:.6; transition:opacity .25s;
+  color:#678EB2; cursor:pointer; opacity:.6; transition:opacity .25s;
 }
 .privacy-close:hover{ opacity:1; }
 .privacy-eyebrow{
   font-size:11px; letter-spacing:0.22em; text-transform:uppercase;
-  color:#5D2D2C; font-weight:600;
+  color:#678EB2; font-weight:600;
 }
 .privacy-title{
   font-family:'Source Serif 4',serif; font-size:30px;
-  color:#5D2D2C; margin:0.4rem 0 1.5rem; font-weight:600;
+  color:#678EB2; margin:0.4rem 0 1.5rem; font-weight:600;
 }
 .privacy-content p{ font-size:14px; line-height:1.7; color:#3a4540; margin:0 0 1rem; }
 .privacy-content h3{
   font-family:'Source Serif 4',serif; font-size:17px;
-  color:#5D2D2C; margin:1.6rem 0 0.5rem; font-weight:600;
+  color:#678EB2; margin:1.6rem 0 0.5rem; font-weight:600;
 }
 .privacy-foot{
   margin-top:1.8rem !important; padding-top:1.2rem;
@@ -5377,25 +5377,6 @@ letter-spacing: 0.045em !important;
 @media(max-width:640px){
   .privacy-box{ padding:2.25rem 1.5rem; border-radius:16px; }
   .privacy-title{ font-size:25px; }
-}
-
-
-/* ============================================
-   PROJECT OVERRIDE — YOO PRISTINE
-   Brand dark-red hero emphasis (default, none supplied)
-   ============================================ */
-.hero-mainline em {
-  color: #C98B85 !important;
-  font-style: italic;
-  font-weight: 600;
-  text-shadow: 0 2px 20px rgba(0,0,0,0.6), 0 1px 4px rgba(0,0,0,0.5);
-}
-.hero-mainline,
-.hero-support,
-.hero-presents,
-.hero-headline-v2.hero-config-pill,
-.hero-usp-strip li {
-  text-shadow: 0 2px 18px rgba(0,0,0,0.5), 0 1px 3px rgba(0,0,0,0.4);
 }
 
 /* Hero secondary links — fast shine sweep (text-style, never button-style) */
@@ -5427,15 +5408,29 @@ letter-spacing: 0.045em !important;
 
 /* ============================================
    V-ONE HEARTLAND - Brand Override Block
-   Hero emphasis dark-red + text-shadow readability
+   Premium blue palette + hero emphasis readability
    (Appended per PropBillion migration rules - base CSS body untouched)
    ============================================ */
+.hero-mainline {
+  position: relative;
+}
 .hero-mainline em {
-  color: #1B4D6B !important;
+  position: relative;
+  color: #375173 !important;
   font-style: italic;
+  font-weight: 600;
+  text-shadow: 0 1px 3px rgba(255,255,255,0.55), 0 2px 22px rgba(255,255,255,0.3);
+}
+.hero-mainline em::before {
+  content: '';
+  position: absolute;
+  inset: -22px -34px;
+  background: radial-gradient(ellipse at center, rgba(255,255,255,0.4) 0%, rgba(245,249,252,0.24) 45%, rgba(255,255,255,0) 78%);
+  filter: blur(20px);
+  z-index: -1;
+  pointer-events: none;
 }
 .hero-mainline,
-.hero-mainline em,
 .hero-presents,
 .hero-support,
 .hero-headline-v2,
