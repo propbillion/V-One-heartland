@@ -5416,10 +5416,24 @@ letter-spacing: 0.045em !important;
 }
 .hero-mainline em {
   position: relative;
-  color: #375173 !important;
+  color: #F5F9FC;
   font-style: italic;
   font-weight: 600;
-  text-shadow: 0 1px 3px rgba(255,255,255,0.55), 0 2px 22px rgba(255,255,255,0.3);
+  background: linear-gradient(100deg, #FFFFFF 0%, #EAF2F8 22%, #FFFFFF 42%, #BBCBDA 58%, #FFFFFF 100%);
+  background-size: 220% auto;
+  background-position: 0% center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: heroEmShine 5s linear infinite;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.25), 0 2px 18px rgba(0,0,0,0.18);
+}
+@keyframes heroEmShine {
+  0%   { background-position: 0% center; }
+  100% { background-position: 220% center; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-mainline em { animation: none; }
 }
 .hero-mainline em::before {
   content: '';
